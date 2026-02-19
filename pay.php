@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit;
 }
 
-register_menu("Payment Page Settings", true, "pay_setup", 'SETTINGS', '', '', "");
+register_menu(Lang::T("Payment Page Settings"), true, "pay_setup", 'SETTINGS', '', '', "");
 
 function pay_setup()
 {
